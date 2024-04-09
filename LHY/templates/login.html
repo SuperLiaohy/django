@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录sb</title>
+</head>
+<body>
+<form action="/LHY/index/" method="post">
+    {% csrf_token %}
+    <p><label>user:</label><input name="user"/></p>
+    <p><label>password:</label><input name="pwd"/></p>
+    <input type="submit" value="submit">
+    <a href=http://10.67.14.121:8000/LHY/toregister/><input type="button" value="register"></a>
+</form>
+这是登录界面sb
+</body>
+</html>
